@@ -169,9 +169,9 @@ body{
 	padding: 130px 0 110px ;
 }
 .ba-section--services {
-color: #FFF;
-background: #adb8cf url(../img/services.jpg) 50% no-repeat;
-background-size: cover;
+	color: #FFF;
+	background: #adb8cf url(../img/services.jpg) 50% no-repeat;
+	background-size: cover;
 }
 .ba-box--light{
 	border-color: #FFF;
@@ -206,10 +206,10 @@ background-size: cover;
 	position: relative;
 }
 .ba-images p {
-color: #ffffff;
-letter-spacing: 0.16em;
-font-size: 34px;
-font-weight: 700;
+	color: #ffffff;
+	letter-spacing: 0.16em;
+	font-size: 34px;
+	font-weight: 700;
 	position: absolute;
 	bottom: 40px;
 	left: 40px;
@@ -220,13 +220,13 @@ font-weight: 700;
 	padding: 140px 0 75px;
 }
 .ba-footer p{
-font-size: 14px;
-font-weight: 400;
-text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
 }
 .ba-footer a {
-text-decoration: none;
-color: #3C3C3C;
+	text-decoration: none;
+	color: #3C3C3C;
 }
 .ba-button {
 	font-weight: 700;
@@ -246,22 +246,27 @@ color: #3C3C3C;
 	padding-bottom: 50px;
 }
 .ba-box--contact p {
-margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .ba-section-images [class*="ba-width-"]:hover {
 	transition: .4s ease-in;
 	opacity: .6;
 }
-.small-logo {
 
-display: inline-block;
-vertical-align: middle;
-}
 .ba-copyright {
-vertical-align: middle;
-
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 75px;
 }
+.small-logo {
+	position: relative;
+	top: 14px;
+	margin-right: 35px;
+}
+
+
+
 
 
 
@@ -274,58 +279,58 @@ vertical-align: middle;
 }
 
 .ba-row:before, .ba-row:after {
-    content: " ";
-    display: table;
+	content: " ";
+	display: table;
 }
 .ba-row {
-    margin-left: -11px;
+	margin-left: -11px;
 }
-    .ba-row + .ba-row {
-        margin-top: 11px;
-    }
-    .ba-row > [class*="ba-width-"] {
-        float: left;
-        padding-left: 11px;
-    }
-    [class*="ba-width-"] {
-        width: 100%;
-    }
+.ba-row + .ba-row {
+	margin-top: 11px;
+}
+.ba-row > [class*="ba-width-"] {
+	float: left;
+	padding-left: 11px;
+}
+[class*="ba-width-"] {
+	width: 100%;
+}
 
 .ba-row:after {
-    clear: both;
+	clear: both;
 }
 .ba-width-1-2 {
-    width: 50%;
+	width: 50%;
 }
 .ba-width-1-3 {
-    width: 33.333333%;
+	width: 33.333333%;
 }
 .ba-width-1-4 {
-    width: 25%;
+	width: 25%;
 }
 .ba-width-1-5 {
-    width: 20%;
+	width: 20%;
 }
 .ba-width-1-6 {
-    width: 16.6666%;
+	width: 16.6666%;
 }
 .ba-width-1-7 {
-    width: 14.2857%;
+	width: 14.2857%;
 }
 .ba-width-1-8 {
-    width: 12.5%;
+	width: 12.5%;
 }
 .ba-width-1-9 {
-    width: 11.11111%;
+	width: 11.11111%;
 }
 .ba-width-1-10 {
-    width: 10%;
+	width: 10%;
 }
 .ba-width-29 {
-    width: 29%;
+	width: 29%;
 }
 .ba-width-42 {
-    width: 42%;
+	width: 42%;
 }
 
 /* grid-row */
